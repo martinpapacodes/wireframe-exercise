@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
 header {
     background: rgb(85, 83, 83);
     color: white;
@@ -22,4 +26,10 @@ ul li {
 footer {
     background: rgb(85, 83, 83);
     outline: solid;
+}
+
+#container {
+    overflow: auto;
+    width: 20%;
+    float: right;
 }
